@@ -42,7 +42,7 @@ Resampler.prototype.initialize = function () {
         }
     }
     else {
-        throw(new Error("Invalid settings specified for the resampler."));
+        throw(new Error("Invalid settings specified for the resampler..."));
     }
 };
 Resampler.prototype.compileLinearInterpolationFunction = function () {
